@@ -6,12 +6,7 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "start": "http-server  -c-1",
-    "ssl": "http-server -S -C cert.pem",
-    "proxy": "http-server --proxy http://localhost:8080?",
-    "cors": "http-server --cors",
-    "android": "http-server -a",
-    "test": "http-server ./"
+    "start": "nodemon server.js"
   },
   "dependencies": {
     "body-parser": "^1.20.2",

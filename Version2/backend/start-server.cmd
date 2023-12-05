@@ -1,7 +1,4 @@
 
 
-j:
-cd D:\LEACB\PROGWEB-SERVER\LAB3_SQL
+nodemon server.js
 
-
-npm run start
