@@ -1,0 +1,114 @@
+
+ [
+    {
+        "id": 1,
+        "name": "Sour Diesel",
+        "provider": "merryjane.com",
+        "categorie": "indica",
+        "description": "Amnesia Haze fraîche cultivée à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://files.merryjane.com/uploads/article/hero_image/1917/SEED_TO_STRAIN_SOUR_DIESEL_WIDE.jpg",
+        "rating": "3.5"
+       
+    },
+    {
+        "id": 2,
+        "name": "Amnesia Haze",
+        "provider": "merryjane.com",
+        "categorie": "indica",
+        "description": "Amnesia Haze fraîche cultivée à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://electroclopes.com/7404-home_default/fleurs-mary-jane-greenhouse-contenance-1g.jpg",
+        "rating": "5.0"
+       
+    },
+    {
+        "id": 3,
+        "name": "Trainwreck",
+        "provider": "merryjane.com",
+       "categorie": "indica",
+        "description": "Trainwreck frais cultivé à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://media.merryjane.com/eyJidWNrZXQiOiJmaWxlcy5tZXJyeWphbmUuY29tIiwia2V5IjoidXBsb2Fkcy9nZW5lcmljLzE1ODM3ODU2MzI1NzZfdW5uYW1lZCgyMCkuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4MDAsImZpdCI6ImNvdmVyIiwiZm9ybWF0Ijoid2VicCJ9fX0=",
+        "rating": "1.5"
+       
+    },
+    {
+        "id": 4,
+        "name": "C4",
+        "provider": "merryjane.com",
+        "categorie": "indica",
+        "description": "C4 frais cultivé à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnX6kG7NI3kBsNCRzEMcobDYFHmXBMck0dw&usqp=CAU",
+        "rating": "3.0"
+       
+    },
+    {
+        "id": 5,
+        "name": "OG Kush",
+        "provider": "merryjane.com",
+        "categorie": "indica",
+        "description": "OG Kush fraîche cultivée à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://cannabishop.co.uk/wp-content/uploads/2018/11/Purple-Kush-Indica-Strain.jpg",
+        "rating": "2.1"
+       
+    },
+    {
+        "id": 6,
+        "name": "Purple Haze",
+        "provider": "merryjane.com",
+        "categorie": "indica",
+        "description": "Fresh Purple Haze cultivée à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://www.autoflowering-cannabis.com/wp-content/uploads/2013/02/Northern-Light-x-Big-Bud.jpg",
+        "rating": "4.5"
+       
+    },
+    {
+        "id": 7,
+        "name": "AK47",
+        "provider": "merryjane.com",
+        "categorie": "indica",
+        "description": "AK47 frais cultivé à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnz50HCJfkFaKZQvDgyiB9dNVkq3HGZFsjPem0i8fxyMkM_GochOV-VAssigyGXIwVuxU&usqp=CAU",
+        "rating": "4.4"
+       
+    },
+    {
+        "id": 8,
+        "name": "GSC",
+        "provider": "merryjane.com",
+        "categorie": "indica",
+        "description": "GSC fraîche cultivée à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://media.merryjane.com/eyJidWNrZXQiOiJmaWxlcy5tZXJyeWphbmUuY29tIiwia2V5IjoidXBsb2Fkcy9nZW5lcmljLzE1Njc1NTUyMjgyMzJfY29tYXRvc2UuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImZpdCI6ImNvdmVyIiwiZm9ybWF0IjoianBnIn19fQ==",
+        "rating": "4.1"
+       
+    },
+    {
+        "id": 9,
+        "name": "Choco Chunk",
+        "provider": "merryjane.com",
+        "categorie": "indica",
+        "description": "Choco Chunk frais cultivé à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3DdJTdN3QsUZWnbzD1xQ93YV2bnBvYDIeSg&usqp=CAU",
+        "rating": "3.5"
+       
+    },
+    {
+        "id": 10,
+        "name": "Northern Lights",
+        "provider": "merryjane.com",
+        "categorie": "indica",
+        "description": "Northern Lights fraîches cultivées à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnX6kG7NI3kBsNCRzEMcobDYFHmXBMck0dw&usqp=CAU",
+        "rating": "3.8"
+       
+    },
+    {
+        "id": 11,
+        "name": "Vanilla Haze",
+        "provider": "merryjane.com",
+        "categorie": "indica",
+        "description": "Haze de vanille fraîche cultivée à partir des trésors d'Amsterdam pour vous faire ressentir la bonne puissance de la famille indica",
+        "image": "https://3.bp.blogspot.com/-ODEaQcCYUfM/XAbVdI02DVI/AAAAAAAAh9U/BuSEj6SIqSEczkvvl0HDRuf1wl-5f2DGwCK4BGAYYCw/s400/IMG_2455.jpg",
+        "rating": "5.0"       
+    }
+
+
+]

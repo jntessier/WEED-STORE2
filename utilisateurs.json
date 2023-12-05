@@ -1,0 +1,33 @@
+[
+	
+	{
+		"login": 			"jntessier", 
+		"prenom": 			"", 
+		"nom": 				"",
+		"courriel": 		"", 
+		"telephone": 		"",
+		"datedenaissance": 	"",
+		"profession": 		"", 
+		"adresse": 			"00000001"
+	},
+	{
+		"login": 			"mathieuhatin", 
+		"prenom": 			"", 
+		"nom": 				"",
+		"courriel": 		"", 
+		"telephone": 		"",
+		"datedenaissance": 	"",
+		"profession": 		"", 
+		"adresse": 			"00000002"
+	},
+	{
+		"login": 			"SteveRouzier", 
+		"prenom": 			"", 
+		"nom": 				"",
+		"courriel": 		"", 
+		"telephone": 		"",
+		"datedenaissance": 	"",
+		"profession": 		"", 
+		"adresse": 			"00000003"
+	}
+]

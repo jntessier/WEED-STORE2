@@ -1,0 +1,28 @@
+
+<!-- Modal connexion -->
+<div class="modal fade" id="ModalConnexion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="ModalTitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            CONNEXION</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="row" onSubmit="return SignIn_Submit(this);">
+                    <div class="col-md-12">
+                        <label for="identifiant" class="form-label">Identifiant</label>
+                        <input type="text" class="form-control is-valid" id="Identifiant" name="Identifiant" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="mpassc" class="form-label">Mot de passe</label>
+                        <input type="password" class="form-control is-valid" id="mpassc" name="mpassc" required>
+                    </div>
+                    <div class="col-12"> <label class="form-label"></label></div>
+                    <div class="col-12"><button class="btn btn-danger btn-perso" type="submit">Connexion</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- Fin du modal connexion -->

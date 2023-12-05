@@ -1,0 +1,23 @@
+{
+  "name": "weed-store-pwa",
+  "version": "1.0.0",
+  "description": "Projet integrateur",
+  "author": "Jean-Nicolas Tessier",
+  "license": "ISC",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server  -c-1",
+	"ssl": "http-server -S -C cert.pem",
+    "proxy": "http-server --proxy http://localhost:3000?",
+	"cors": "http-server --cors",
+	"android": "http-server -a",
+	"test": "http-server ./"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http-server": "^14.1.1",
+    "path": "^0.12.7",
+    "three": "^0.159.0",
+    "video.js": "^8.6.1"
+  }
+}

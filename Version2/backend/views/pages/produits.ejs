@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= page %></title>
+
+    <link rel="stylesheet" type="text/css" href="css/<%= page %>.css">
+    <%- include('../partials/head'); %>
+    <%- include('../partials/scripts'); %>
+</head>
+<body>
+   
+    <%- include('../partials/navbar'); %>
+   
+           <br>
+     
+    <div>
+      <br>
+        <Table class="fixed_headers">
+            <thead>
+                <tr>
+                  <% for (let i=0; i<field.length; i++){%>
+                  <th><%= field[i] %></th>
+                  <%}%>                                         
+                </tr>
+              </thead>
+              <tbody>
+                
+                <% for (let i=0; i<data.length; i++){%>
+                    <tr>
+                        
+                        <tr key=<%= data[i].Produit_ID %>>    <th scope="row"><%= data[i].Produit_ID %></th>
+                        <td><%= data[i].Produit_Name %></td>
+                        <td><%= data[i].Produit_Realisateur %></td>
+                        <td><%= data[i].Produit_Categorie %></td>
+                        <td><%= data[i].Produit_Fournisseur %></td>
+                        <td><%= data[i].Produit_Prix %>$</td>
+                        <td><%= data[i].Produit_Qte %></td>                       
+                        <td><img src="<%= data[i].Produit_Image %>" alt="Image" width="50" height="50"><br></td>
+                        <form action="/cart" method="POST">
+                        <input type="hidden" name="productId" value="<%= data[i].Produit_ID %>">
+                        <td>
+                        <button type="submit" class="select-row-btn">Ajouter au panier</button>
+                        </td>
+                      </form>
+
+                    </tr>                  
+                    <%}%>                            
+            </tbody>
+          </Table>          
+    </div>
+ 
+
+<canvas class="background"></canvas>  
+
+
+</body>
+</html>

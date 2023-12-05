@@ -1,0 +1,54 @@
+
+<!-- Modal ajouter films -->
+<div class="modal fade" id="ModalAjouter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Ajouter un film</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="row" method="get" action="/""> <!--</form> action="/enregistrer" method="post"> -->
+                    <div class="col-md-6">
+                        <label for="titre" class="form-label">Titre:</label>
+                        <input type="text" class="form-control is-valid" id="titre" name="titre" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="annee" class="form-label">Annee:</label>
+                        <input type="text" class="form-control is-valid" id="annee" name="annee" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Selectbox_Categories2" class="form-label">Categorie:</label>
+                        <select name="categorie" class="form-control is-valid" id="categorie" ></select>                          
+                    </div>
+                    <div class="col-md-6">
+                        <label for="realisateur" class="form-label">Realisateur:</label>
+                        <input type="text" class="form-control is-valid" id="realisateur" name="realisateur">
+                    </div> 
+                    <div class="col-md-12">
+                        <label for="acteurs" class="form-label">Acteurs</label>
+                        <input type="text" class="form-control is-valid" id="acteurs" name="acteurs" required>
+                    </div>                                             
+                    <div class="col-md-12">
+                        <label for="description" class="form-label">Description:</label>
+                        <input type="text" class="form-control is-valid" id="description" name="description">
+                    </div>    
+                    <div class="col-md-12">
+                        <label for="videoUrl" class="form-label">VideoUrl:</label>
+                        <input type="text" class="form-control is-valid" id="videoUrl" name="videoUrl">
+                    </div>  
+                    <div class="col-md-12">
+                        <label for="imageUrl" class="form-label">ImageUrl:</label>
+                        <input type="text" class="form-control is-valid" id="imageUrl" name="imageUrl">
+                    </div>                  
+                    <br>
+                    <div class="col-12">
+                        <button class="btn btn-primary btn-perso" type="submit">Enregistrer</button>
+                    </div>
+                </form>                   
+            </div>
+            <span id="msg" style="color:red; font: size 16;"></span>
+        </div>
+    </div>
+  </div>
+  <!-- fin ModalAjoutFilm -->

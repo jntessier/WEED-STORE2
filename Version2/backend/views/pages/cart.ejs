@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= page %></title>
+    <link rel="stylesheet" type="text/css" href="css/<%= page %>.css">
+    <%- include('../partials/head'); %>
+    <%- include('../partials/scripts'); %>
+</head>
+<body>
+    <%- include('../partials/navbar'); %>
+    <br>
+    <h1><%= page %></h1>
+    <h2>Cart</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Realisateur</th>
+                <th>Categorie</th>
+                <th>Fournisseur</th>
+                <th>Prix</th>
+                <th>Quantite</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for (let i = 0; i < products.length; i++) { %>
+                <tr>
+                    <td><%= products[i].Produit_ID %></td>
+                    <td><%= products[i].Produit_Name %></td>
+                    <td><%= products[i].Produit_Realisateur %></td>
+                    <td><%= products[i].Produit_Categorie %></td>
+                    <td><%= products[i].Produit_Fournisseur %></td>
+                    <td><%= products[i].Produit_Prix %>$</td>
+                    <td><%= products[i].Produit_Qte %></td>
+                    <td>
+                        <img src="<%= products[i].Produit_Image %>" alt="Image" width="50" height="50">
+                    </td>
+                </tr>
+            <% } %>
+        </tbody>
+    </table>
+    <% if (products.length > 0) { %>
+        <form action="/payment" method="POST">
+            <input type="hidden" name="productId" value="<%= products[0].Produit_ID %>">
+            <input type="hidden" name="totalAmount" value="<%= totalAmount %>">
+            <input type="hidden" name="currency" value="<%= products[0].currency %>">
+            <button type="submit">Payer avec PayPal</button>
+        </form>
+    <% } else { %>
+        <p>Votre panier est vide.</p>
+    <% } %>
+</body>
+</html>

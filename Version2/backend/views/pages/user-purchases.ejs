@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <%- include('../partials/head'); %>
+    <%- include('../partials/scripts'); %>
+</head>
+<body>
+    <%- include('../partials/navbar'); %>
+  <h1>Achats de l'utilisateur</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>ID achat</th>
+        <th>Nom du produit</th>
+        <th>Prix du produit</th>
+        <!-- Ajoutez d'autres colonnes si nécessaire -->
+      </tr>
+    </thead>
+    <tbody>
+      <% userPurchases.forEach(purchase => { %>
+        <tr>
+          <td><%= purchase.achat_id %></td>
+          <td><%= purchase.Produit_Name %></td>
+          <td><%= purchase.Produit_Prix %>$</td>
+          <!-- Ajoutez d'autres colonnes si nécessaire -->
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
+</html>

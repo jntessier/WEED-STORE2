@@ -1,0 +1,60 @@
+{
+  "name": "WEED-STORE-PWA",
+  "short_name": "WEED-STORE",
+  "start_url": "index.html",
+  "scope": "/.",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#1e1f26",
+  "theme_color": "#089607",
+  "description": "Projet integrateur",
+  "dir": "ltr",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/assets/images/icons/icone.48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/assets/images/icons/icone.72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/assets/images/icons/icone.96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/icons/icone.128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/icons/icone.144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/icons/icone.152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/icons/icone.192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/icons/icone.384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/icons/icone.512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

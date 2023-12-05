@@ -1,0 +1,47 @@
+ <!-- Products navbar -->
+ <nav class="navbar navbar-expand-lg bg-nav-perso">
+    
+   
+    <ul class="navbar-nav">
+      <div class="container-fluid">
+
+        <div class="collapse navbar-collapse" id="nav-toolbar">
+
+        <li class="nav-item">&nbsp;NOS PRODUITS&nbsp;&nbsp;&nbsp;</li>
+
+        <li class="nav-item">&nbsp;Categorie&nbsp;
+        <select name="CategoriesOptions_Select" id="CategoriesOptions_Select" class="CategoriesOptions_Select"  width=10px height=10px
+                onChange="CategoriesOptions_OnChanged(this)"  >
+                <option value="toutes">Toutes</option>
+                <option value="sativa">Sativa</option>
+                <option value="indica">Indica</option>
+                <option value="hybrid">Hybrid</option>
+        </select>
+      </li>
+
+      <li class="nav-item">&nbsp;Trier par&nbsp;
+        <select name="SortByOptions_Select" id="SortByOptions_Select" class="SortByOptions_Select"  width=10px height=10px
+                onChange="SortByOptions_OnChanged(this)"  >
+                <option value="Prix($)">Prix($)</option>
+                <option value="THC(%)">THC(%)</option>        
+        </select>
+      </li>
+
+      <li class="nav-item">&nbsp;En ordre&nbsp;
+        <select name="OrderByOptions_Select" id="OrderByOptions_Select" class="OrderByOptions_Select"  width=10px height=10px
+                onChange="OrderByOptions_OnChanged(this)"  >
+                <option value="Ascendant">Ascendant</option>
+                <option value="Descendant">Descendant</option>        
+        </select>
+      </li>
+      </div>
+
+     
+    
+                          
+    </ul>
+
+     
+  </div>
+</nav>
+<!-- Fin de la barre de navigation -->
